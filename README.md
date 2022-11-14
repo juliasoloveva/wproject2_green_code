@@ -1,4 +1,4 @@
-# Competition task for **Hackathon Green Code** 7-8/10/22
+Green Code
 
 The scripts in this repository deploy the platform into DS Outscale cloud, initialize and configure the virtual machines, and install the applications.
 
