@@ -35,28 +35,46 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt-get update -y
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y 
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 sudo apt-get update -y
 
 sudo usermod -aG docker $USER
 
 ## Change docker files location
-mkdir /data/docker
-echo '{"data-root": "/data/docker"}' | sudo tee --append /etc/docker/daemon.json
+#mkdir /data/docker
+#echo '{"data-root": "/data/docker"}' | sudo tee --append /etc/docker/daemon.json
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 
+# Pre-load images
+docker pull postgres:14.1-alpine
+docker pull adminer
+docker pull mongo:6.0.2
+docker pull mongo-express:0.54
+
 # Install tools
 sudo apt-get install unzip -y
 
+# Create necessary folders for the containers
+mkdir /data/postgres
+mkdir /data/mongo
+
 # Run containers
-# sudo docker compose up -d
+ sudo docker compose up -d
 
 # Install Python
 sudo apt-get -y install python3
 sudo apt-get -y install python3-pip
 sudo apt-get -y install python3-pymongo
+
+
+sudo pip install psycopg2-binary
+sudo pip install flask
+sudo apt install python3-flask -y
+pip install psycopg2-binary
+pip install flask
+
 
 # Install application
 mkdir /data/code
@@ -109,11 +127,34 @@ sudo mv /tmp/media_load.service /etc/systemd/system/media_load.service
 sudo systemctl enable media_load.service
 sudo systemctl start media_load.service
 
+
+# Run ms1 as a service
+cat <<EOF > /tmp/ms1.service
+[Unit]
+Description=ms1
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/home/outscale
+ExecStart=/usr/bin/flask run --host=0.0.0.0 -p 8000
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo mv /tmp/ms1.service /etc/systemd/system/ms1.service
+
+sudo systemctl daemon-reload
+sudo systemctl enable ms1.service
+sudo systemctl start ms1.service
+
+
 # Install powertop (must be installed on all VMs!)
 mkdir /data/logs
 mkdir /data/metrics
 sudo apt install powertop -y
 
 # Install ifstat (must be installed on all VMs!)
-sudo apt install ifstat -y 
-
+sudo apt install ifstat -y
