@@ -3,7 +3,7 @@ import os
 import re
 import sys
 import hashlib
-
+	⁃	
 """
  In this case you need to produce n files from a template, liste of id and two dates.
 dlms is a standard of communication in energy with iot object (smart meter)
@@ -45,3 +45,4 @@ def templating_dlms(filename_id,dt_start,dt_stop):
         md5s.append(md5_hash.hexdigest())
         
     return md5s
+
