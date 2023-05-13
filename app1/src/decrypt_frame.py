@@ -98,7 +98,7 @@ def frame_to_json(frame):
         ("Operator Specific Data", frame[104:106]),
         ("Date_Time",
          OrderedDict([
-             ("value", date.strftime(DATE_FORMAT)),
+	⁃	             ("value", date.strftime(DATE_FORMAT)),
              ("storage", 1)
          ])
          ),
@@ -156,8 +156,4 @@ def decode_frame(frame):
         frame_dict = frame_to_json(frame)
         str=json.dumps(frame_dict, indent=4)
     return str
-
-
-
-
 
