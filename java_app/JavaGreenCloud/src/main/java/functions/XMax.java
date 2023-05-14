@@ -35,13 +35,13 @@ public class XMax {
         BufferedReader reader = new BufferedReader(new FileReader(path));
         String s = reader.readLine();
         StringBuilder keys = new StringBuilder();
-        while (keys.toString().split(",").length < nbmax) {
+        while (keys.toString().split(",").length <= nbmax) {
             String max = maxInList(s);
-            keys.append(max.split(",")[0] + ",");
+            keys.append("'"+max.split(",")[0] + "'" + ", ");
             s = s.replace("(" + max + ");", "").replace(";(" + max + ")", "");
         }
         reader.close();
-        return keys.toString();
+        return "[" + keys.toString().substring(0, keys.toString().length() - 2) + "]";
     }
 
 }

@@ -1,18 +1,20 @@
 package functions;
+import java.math.BigInteger;
 
 public class Factorial {
-    public int factorial(int a){
-        if(a<0){
-            return 0;
+    public static BigInteger factorial(int a){
+        BigInteger result = BigInteger.valueOf(1);
+        for (int i = 2; i <= a; i++) {
+            result = result.multiply(BigInteger.valueOf(i));
         }
-        else
-        if (a<2){
-            return 1;
-        }
-            return a*factorial(a-1);
+        return result;
     }
 
-    public String cmd_fact(int n){
+    public static String cmd_fact(int n){
+
+        if (n<0){
+            return "undefined";
+        }
         return String.valueOf(factorial(n));
     }
 }

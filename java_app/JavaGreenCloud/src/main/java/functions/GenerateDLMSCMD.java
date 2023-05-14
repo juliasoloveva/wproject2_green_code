@@ -24,7 +24,7 @@ public class GenerateDLMSCMD {
      */
     public static List<String> templatingDlms(String filenameId, String dtStart, String dtStop)
             throws IOException, NoSuchAlgorithmException {
-        BufferedReader file = new BufferedReader(new FileReader("/data/media/" + filenameId));
+        BufferedReader file = new BufferedReader(new FileReader("/data/media/"+ filenameId));
         String templateName = "/data/media/templating_tpl.xml";
 
         String tpl = new String(Files.readAllBytes(Paths.get(templateName)), StandardCharsets.UTF_8);
@@ -57,7 +57,7 @@ public class GenerateDLMSCMD {
             for (byte b : hash) {
                 sb.append(String.format("%02x", b & 0xff));
             }
-            md5s.add(sb.toString());
+            md5s.add("'"+sb.toString()+"'");
         }
 
         return md5s;

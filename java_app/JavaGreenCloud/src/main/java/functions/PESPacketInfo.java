@@ -544,7 +544,7 @@ public class PESPacketInfo {
         return new ArrayList<>(Arrays.asList(PESPidList, PCRList, PTSList));
     }
 
-    public static void parseTransportStream(String filename) throws IOException {
+    public static String parseTransportStream(String filename) throws IOException {
         RandomAccessFile fileHandle = new RandomAccessFile(filename, "r");
 
         ArrayList<ArrayList<LinkedHashMap<String, Object>>> data_list;
@@ -558,7 +558,7 @@ public class PESPacketInfo {
             ArrayList<LinkedHashMap<String, Object>> pts= data_list.get(2);
 
             ArrayList<Map<String, Object>> stats = getPidStats(pesPidList,pcr,pts);
-            System.out.println(stats);
+            return stats.toString();
 
         }catch (Exception e){
             e.printStackTrace();
@@ -566,5 +566,6 @@ public class PESPacketInfo {
         finally {
             fileHandle.close();
         }
+        return "";
     }
 }
