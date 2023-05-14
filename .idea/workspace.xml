@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128eb6ac-49fc-4f32-a81c-550abe580666" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app1/src/transport_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/app1/src/transport_stream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metrics/expected/transport_stream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/metrics/expected/transport_stream.txt" afterDir="false" />
-    </list>
+    <list default="true" id="128eb6ac-49fc-4f32-a81c-550abe580666" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
