@@ -1,0 +1,492 @@
+===========================================================
+Execution time: 0:03:00
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 6.32 (Wh)
+Idle compute consumption: 1.67 (Wh)
+Total traffic: 0.082(GB)
+Traffic power consumption: 8.2(Wh)
+TOTAL: 16.19(Wh)
+===========================================================
+Execution time: 0:02:50
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.57 (Wh)
+Idle compute consumption: 1.57 (Wh)
+Total traffic: 0.0821(GB)
+Traffic power consumption: 8.21(Wh)
+TOTAL: 15.35(Wh)
+===========================================================
+Execution time: 0:02:50
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.57 (Wh)
+Idle compute consumption: 1.57 (Wh)
+Total traffic: 0.0821(GB)
+Traffic power consumption: 8.21(Wh)
+TOTAL: 15.35(Wh)
+===========================================================
+Execution time: 0:02:51
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 7.18 (Wh)
+Idle compute consumption: 1.58 (Wh)
+Total traffic: 0.0821(GB)
+Traffic power consumption: 8.21(Wh)
+TOTAL: 16.97(Wh)
+===========================================================
+Execution time: 0:02:49
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.07 (Wh)
+Idle compute consumption: 1.56 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.85(Wh)
+===========================================================
+===========================================================
+Execution time: 0:03:04
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.03 (Wh)
+Idle compute consumption: 1.7 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.95(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:53
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.85 (Wh)
+Idle compute consumption: 1.6 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 15.67(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:59
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.12 (Wh)
+Idle compute consumption: 1.66 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 15.0(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:53
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.16 (Wh)
+Idle compute consumption: 1.6 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.98(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:57
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.73 (Wh)
+Idle compute consumption: 1.64 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 15.59(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:55
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.55 (Wh)
+Idle compute consumption: 1.62 (Wh)
+Total traffic: 0.0821(GB)
+Traffic power consumption: 8.21(Wh)
+TOTAL: 15.38(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:54
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.57 (Wh)
+Idle compute consumption: 1.61 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 15.4(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:51
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.01 (Wh)
+Idle compute consumption: 1.58 (Wh)
+Total traffic: 0.0821(GB)
+Traffic power consumption: 8.21(Wh)
+TOTAL: 14.8(Wh)
+===========================================================
+===========================================================
+Execution time: 0:03:01
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.96 (Wh)
+Idle compute consumption: 1.68 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.86(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:53
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 6.0 (Wh)
+Idle compute consumption: 1.6 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 15.82(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:57
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 3.79 (Wh)
+Idle compute consumption: 1.64 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 13.65(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:59
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.64 (Wh)
+Idle compute consumption: 1.66 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.52(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:57
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.56 (Wh)
+Idle compute consumption: 1.64 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.42(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:50
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.39 (Wh)
+Idle compute consumption: 1.57 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.19(Wh)
+===========================================================
+===========================================================
+Execution time: 0:03:00
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.61 (Wh)
+Idle compute consumption: 1.67 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.51(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:52
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.54 (Wh)
+Idle compute consumption: 1.59 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.36(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:58
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.73 (Wh)
+Idle compute consumption: 1.65 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 14.61(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:55
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.85 (Wh)
+Idle compute consumption: 1.62 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 14.7(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:55
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 6.17 (Wh)
+Idle compute consumption: 1.62 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 16.02(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:27
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.55 (Wh)
+Idle compute consumption: 1.36 (Wh)
+Total traffic: 0.068(GB)
+Traffic power consumption: 6.8(Wh)
+TOTAL: 13.71(Wh)
+===========================================================
+===========================================================
+Execution time: 0:03:01
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 6.05 (Wh)
+Idle compute consumption: 1.68 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.96(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:56
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.04 (Wh)
+Idle compute consumption: 1.63 (Wh)
+Total traffic: 0.0822(GB)
+Traffic power consumption: 8.22(Wh)
+TOTAL: 14.89(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:52
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.89 (Wh)
+Idle compute consumption: 1.59 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.71(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:56
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.18 (Wh)
+Idle compute consumption: 1.63 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.04(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:52
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 4.88 (Wh)
+Idle compute consumption: 1.59 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 14.7(Wh)
+===========================================================
+===========================================================
+Execution time: 0:02:53
+Correctness: fact.txt - OK
+prime.txt - OK
+sink_aggregation.txt - OK
+transport_stream.txt - OK
+template.txt - OK
+decode_frame.txt - OK
+get_x_max.txt - OK
+store_prices.txt - OK
+VM consumption: 5.94 (Wh)
+Idle compute consumption: 1.6 (Wh)
+Total traffic: 0.0823(GB)
+Traffic power consumption: 8.23(Wh)
+TOTAL: 15.77(Wh)
+===========================================================
