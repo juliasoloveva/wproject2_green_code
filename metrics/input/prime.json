@@ -17,6 +17,26 @@
 	},
 	"5":{
 		"type": "prime_numbers",
-		"arguments": {"n": 100}
+		"arguments": {"n": 20000}
+	},
+
+	"6":{
+		"type": "prime_numbers",
+		"arguments": {"n": 50000}
+	},
+
+	"7":{
+		"type": "prime_numbers",
+		"arguments": {"n": 100000}
+	},
+
+	"8":{
+		"type": "prime_numbers",
+		"arguments": {"n": 200000}
+	},
+
+	"9":{
+		"type": "prime_numbers",
+		"arguments": {"n": 250000}
 	}
 }

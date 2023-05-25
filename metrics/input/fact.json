@@ -13,10 +13,22 @@
 	},
     "4": {
 		"type": "cmd_fact",
-		"arguments": {"n": 0 }
+		"arguments": {"n": 1000 }
 	},
     "5": {
 		"type": "cmd_fact",
-		"arguments": {"n": 1 }
+		"arguments": {"n": 1200 }
+	},
+    "6": {
+		"type": "cmd_fact",
+		"arguments": {"n": 1500 }
+	},
+    "7": {
+		"type": "cmd_fact",
+		"arguments": {"n": 1700 }
+	},
+    "8": {
+		"type": "cmd_fact",
+		"arguments": {"n": 2000 }
 	}		
 }
